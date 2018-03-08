@@ -1,0 +1,9 @@
+package com.example.demo;
+
+import org.springframework.data.mongodb.repository.MongoRepository;
+
+import java.sql.Timestamp;
+
+public interface InformationRepository extends MongoRepository<GeneralInformation,Timestamp>{
+    public GeneralInformation saveInformation(GeneralInformation generalInformation);
+}
