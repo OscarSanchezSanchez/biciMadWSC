@@ -1,6 +1,11 @@
 package com.example.demo;
 
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
+
+@Document
 public class Station {
+    @Id
     private int id;
     private float latitude;
     private float longitude;

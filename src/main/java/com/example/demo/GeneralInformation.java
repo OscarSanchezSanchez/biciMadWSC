@@ -1,9 +1,14 @@
 package com.example.demo;
 
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
+
 import java.io.Serializable;
 
+@Document
 public class GeneralInformation implements Serializable{
 
+    @Id
     private String time;
     private int code;
     private String description;
