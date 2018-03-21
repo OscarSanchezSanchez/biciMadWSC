@@ -25,7 +25,7 @@ public class Application implements CommandLineRunner{
 
 	@Override
 	public void run(String... args) throws Exception {
-	    CsvNormalizer csvcreator = new CsvNormalizer();
+	    /*CsvNormalizer csvcreator = new CsvNormalizer();
         List<GeneralInformation> dataset = Petitions.getBetweenDates("19-03-2018 00:00:00.000","23-03-2018 23:59:59.000",repo);
         System.out.println(dataset.size());
         //List<GeneralInformation> dataset = repo.findAll();
@@ -33,10 +33,10 @@ public class Application implements CommandLineRunner{
             csvcreator.createCSV(dataset,"PRUEBA.csv");
         }catch (Exception ex){
             ex.printStackTrace();
-        }
+        }*/
     }
 
-    @Scheduled(fixedDelay=300000)
+    @Scheduled(fixedDelay=60000)
     public void saveInformation(){
 	    Petitions petitions = new Petitions();
         repo.save(petitions.getAllStations("WEB.SERV.oscar.sanchezsa@urjc.es", "0BB5A209-4124-47BC-8233-6F340F5FA800"));

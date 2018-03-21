@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b73c5108-cc19-4747-8acf-5a012422f904" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/bicimadWSC.iml" afterPath="$PROJECT_DIR$/bicimadWSC.iml" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/emtbicimad/application/Application.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/emtbicimad/application/InfoRepository.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/emtbicimad/application/Petitions.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/emtbicimad/csvutils/CSVstation.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/emtbicimad/csvutils/CsvNormalizer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/emtbicimad/entities/GeneralInformation.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/emtbicimad/entities/Station.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/emtbicimad/entities/StationList.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/emtbicimad/application/ApplicationTests.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/emtbicimad/application/Application.java" afterPath="$PROJECT_DIR$/src/main/java/com/emtbicimad/application/Application.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,16 +17,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Application.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/emtbicimad/application/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="32" column="32" lean-forward="false" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="32" />
+            <state relative-caret-position="555">
+              <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#782#783#0" expanded="true" />
                 <element signature="e#835#836#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="63" lean-forward="true" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -64,14 +63,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CsvNormalizer.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CsvNormalizer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/emtbicimad/csvutils/CsvNormalizer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
               <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1563#1575#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -194,9 +192,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/emtbicimad/entities/GeneralInformation.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/emtbicimad/application/InfoRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/emtbicimad/application/Petitions.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/emtbicimad/application/Application.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/emtbicimad/csvutils/CSVstation.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/emtbicimad/csvutils/CsvNormalizer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/emtbicimad/application/Application.java" />
       </list>
     </option>
   </component>
@@ -264,6 +262,50 @@
             <path>
               <item name="demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="biciMadWSC" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="biciMadWSC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="biciMadWSC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="biciMadWSC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="biciMadWSC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="emtbicimad" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="biciMadWSC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="emtbicimad" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="biciMadWSC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="emtbicimad" type="462c0819:PsiDirectoryNode" />
+              <item name="csvutils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -352,6 +394,8 @@
     <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.emtbicimad.application.Application" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home" />
       <module name="demo" />
       <envs />
     </configuration>
@@ -408,12 +452,12 @@
       <workItem from="1521450987010" duration="2752000" />
       <workItem from="1521454741787" duration="12941000" />
       <workItem from="1521536369487" duration="16359000" />
-      <workItem from="1521624220175" duration="8464000" />
+      <workItem from="1521624220175" duration="9396000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68439000" />
+    <option name="totallyTimeSpent" value="69371000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="977" extended-state="0" />
@@ -483,7 +527,6 @@
           <caret line="15" column="10" lean-forward="false" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1563#1575#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -567,7 +610,6 @@
           <caret line="21" column="9" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="21" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1563#1575#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -736,18 +778,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/emtbicimad/application/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="32" column="32" lean-forward="false" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#782#783#0" expanded="true" />
-            <element signature="e#835#836#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/emtbicimad/entities/GeneralInformation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -866,7 +896,26 @@
           <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1563#1575#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="63" lean-forward="true" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/emtbicimad/application/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#782#783#0" expanded="true" />
+            <element signature="e#835#836#0" expanded="true" />
           </folding>
         </state>
       </provider>
