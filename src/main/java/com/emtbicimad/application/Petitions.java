@@ -1,14 +1,15 @@
-package com.example.demo;
+package com.emtbicimad.application;
 
-
+import com.emtbicimad.entities.GeneralInformation;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import org.springframework.beans.factory.annotation.Autowired;
+import javafx.util.converter.DateTimeStringConverter;
 import org.springframework.http.ResponseEntity;
-import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
 
 import java.io.IOException;
+import java.util.Date;
+import java.util.List;
 
 public class Petitions {
 
@@ -46,6 +47,12 @@ public class Petitions {
         return null;
     }
 
+    public static  List<GeneralInformation> getBetweenDates(String date1, String date2, InfoRepository repo){
+        DateTimeStringConverter x = new DateTimeStringConverter("dd-MM-yyyy HH:mm:ss.SSS");
+        Date format_date1 = x.fromString(date1);
+        Date format_date2 = x.fromString(date2);
+        return repo.findAllByTimeIsBetween(format_date1,format_date2);
+    }
 
     private String clearResponse(String string){
         String regex1 = "\"\\{";
@@ -53,5 +60,6 @@ public class Petitions {
         return string.replaceAll("\\\\", "")
                 .replaceAll(regex1, "{").replaceAll(regex2, "}");
     }
+
 }
 
