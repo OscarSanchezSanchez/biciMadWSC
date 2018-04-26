@@ -4,6 +4,7 @@ import com.emtbicimad.entities.GeneralInformation;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import javafx.util.converter.DateTimeStringConverter;
+import jsonEntities.JsonDataObjects;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.client.RestTemplate;
 
@@ -52,6 +53,12 @@ public class Petitions {
         Date format_date1 = x.fromString(date1);
         Date format_date2 = x.fromString(date2);
         return repo.findAllByTimeIsBetween(format_date1,format_date2);
+    }
+     public static  List<JsonDataObjects> getBetweenDates(String date1, String date2, JsondataRepository repo){
+        DateTimeStringConverter x = new DateTimeStringConverter("yyyy-MM-dd'T'HH:mm:ss.SSS");
+        Date format_date1 = x.fromString(date1);
+        Date format_date2 = x.fromString(date2);
+        return repo.findByDateBetween(format_date1,format_date2);
     }
 
     private String clearResponse(String string){

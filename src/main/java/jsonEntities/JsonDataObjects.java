@@ -1,8 +1,10 @@
 package jsonEntities;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.io.Serializable;
+import java.util.Date;
 
 public class JsonDataObjects implements Serializable {
     private IDclass _id;
@@ -16,6 +18,16 @@ public class JsonDataObjects implements Serializable {
     private int ageRange;
     private int idplug_station;
     private UnplugTime unplug_hourTime;
+    private Date date;
+
+    public Date getDate() {
+        return date;
+    }
+
+    public void setDate(Date date) {
+        this.date = date;
+    }
+
     private String zip_code;
 
     public JsonDataObjects() {

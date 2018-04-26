@@ -9,11 +9,11 @@ public class IDclass {
     public IDclass() {
     }
 
-    public String get$oid() {
+    public String getoid() {
         return oid;
     }
 
-    public void set$oid(String $oid) {
+    public void setoid(String $oid) {
         this.oid = $oid;
     }
 }
