@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b73c5108-cc19-4747-8acf-5a012422f904" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/jsonEntities/JsonObjectSerializer.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emtbicimad/application/Application.java" afterPath="$PROJECT_DIR$/src/main/java/com/emtbicimad/application/Application.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emtbicimad/application/JsondataRepository.java" afterPath="$PROJECT_DIR$/src/main/java/com/emtbicimad/application/JsondataRepository.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emtbicimad/application/Petitions.java" afterPath="$PROJECT_DIR$/src/main/java/com/emtbicimad/application/Petitions.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emtbicimad/csvutils/CsvNormalizer.java" afterPath="$PROJECT_DIR$/src/main/java/com/emtbicimad/csvutils/CsvNormalizer.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jsonEntities/Geometry.java" afterPath="$PROJECT_DIR$/src/main/java/jsonEntities/Geometry.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jsonEntities/IDclass.java" afterPath="$PROJECT_DIR$/src/main/java/jsonEntities/IDclass.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jsonEntities/JsonDataObjects.java" afterPath="$PROJECT_DIR$/src/main/java/jsonEntities/JsonDataObjects.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,8 +23,8 @@
       <file leaf-file-name="Application.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/emtbicimad/application/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="712">
-              <caret line="80" column="10" lean-forward="false" selection-start-line="80" selection-start-column="10" selection-end-line="80" selection-end-column="10" />
+            <state relative-caret-position="1455">
+              <caret line="97" column="63" lean-forward="false" selection-start-line="97" selection-start-column="63" selection-end-line="97" selection-end-column="88" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1335#1336#0" expanded="true" />
@@ -45,7 +37,7 @@
       <file leaf-file-name="CsvNormalizer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/emtbicimad/csvutils/CsvNormalizer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
+            <state relative-caret-position="1725">
               <caret line="122" column="32" lean-forward="false" selection-start-line="122" selection-start-column="32" selection-end-line="122" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -198,10 +190,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -429,12 +421,14 @@
       <workItem from="1524472977094" duration="11990000" />
       <workItem from="1524557728032" duration="11604000" />
       <workItem from="1524646567125" duration="8492000" />
-      <workItem from="1524731818446" duration="811000" />
+      <workItem from="1524731818446" duration="2512000" />
+      <workItem from="1526036096910" duration="559000" />
+      <workItem from="1527151422808" duration="49000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129192000" />
+    <option name="totallyTimeSpent" value="131501000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="70" y="23" width="1850" height="1057" extended-state="0" />
@@ -618,6 +612,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
           <caret line="38" column="46" lean-forward="false" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -639,6 +634,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -790,13 +786,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="234" lean-forward="false" selection-start-line="1" selection-start-column="122" selection-end-line="1" selection-end-column="207" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/emtbicimad/csvutils/CsvNormalizer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
+        <state relative-caret-position="1725">
           <caret line="122" column="32" lean-forward="false" selection-start-line="122" selection-start-column="32" selection-end-line="122" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -806,8 +801,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/emtbicimad/application/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="712">
-          <caret line="80" column="10" lean-forward="false" selection-start-line="80" selection-start-column="10" selection-end-line="80" selection-end-column="10" />
+        <state relative-caret-position="1455">
+          <caret line="97" column="63" lean-forward="false" selection-start-line="97" selection-start-column="63" selection-end-line="97" selection-end-column="88" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1335#1336#0" expanded="true" />
