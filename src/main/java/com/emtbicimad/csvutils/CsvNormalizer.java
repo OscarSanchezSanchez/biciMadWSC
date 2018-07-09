@@ -20,25 +20,6 @@ public class CsvNormalizer {
     private static final char TWOPOINTS_DELIMETER = ':';
     private static final char NEW_LINE_SEPARATOR = '\n';
 
-    public void createCSV(List<GeneralInformation> informationList, String filename) throws IOException {
-        FileWriter fileWriter = null;
-        fileWriter = new FileWriter(filename);
-        fileWriter.append(HEADER_DATASET_MYSELF.toString());
-        fileWriter.append(NEW_LINE_SEPARATOR);
-
-        for (GeneralInformation stationsInfo: informationList) {
-            long time = stationsInfo.getTime().getTime();
-            GregorianCalendar calendar = new GregorianCalendar();
-            calendar.setTimeInMillis(time);
-            List<CSVstation> stations = this.createCSVstationsList(stationsInfo,calendar);
-            this.writeStationsByHour(stations,fileWriter);
-        }
-        fileWriter.flush();
-        fileWriter.close();
-        System.out.println("acabeeee");
-
-    }
-
     public void createCSVBicimad(List<JsonDataObjects> dataset, String fileName) throws IOException{
         FileWriter filewriter = new FileWriter(fileName);
         filewriter.append(HEADER_DATASET_BICIMAD.toString());
@@ -51,29 +32,6 @@ public class CsvNormalizer {
         System.out.println("se finiii");
     }
 
-    private List<CSVstation> createCSVstationsList(GeneralInformation stationsInfo,GregorianCalendar calendar){
-
-        List<CSVstation> stations = new ArrayList<>();
-        int[] weekend = {Calendar.FRIDAY,Calendar.SATURDAY,Calendar.SUNDAY};
-
-        for (Station item: stationsInfo.getData().getStations()) {
-            //create data for hour and date
-            int month = calendar.get(Calendar.MONTH)+1;
-            String date = calendar.get(Calendar.DAY_OF_MONTH) + "-" + month + "-" + calendar.get(Calendar.YEAR);
-            String hour = calendar.get(Calendar.HOUR_OF_DAY) + ":" + calendar.get(Calendar.MINUTE) + ":" + calendar.get(Calendar.SECOND);
-            Boolean weekend_event = false;
-            for (int i = 0; i<weekend.length; i++){
-                if (calendar.get(Calendar.DAY_OF_WEEK) == weekend[i]) {
-                    weekend_event = true;
-                    break;
-                }
-            }
-            CSVstation csv_station = new CSVstation(date,hour,item.getId(), weekend_event,item.getLight(),item.getActivate(),item.getNo_available(),
-                    item.getTotal_bases(),item.getDock_bikes(),item.getFree_bases(),item.getReservations_count());
-            stations.add(csv_station);
-        }
-        return stations;
-    }
 
     private void writeMovementInformation(JsonDataObjects movementInfo, FileWriter filewriter) throws IOException {
         try {

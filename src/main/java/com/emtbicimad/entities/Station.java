@@ -14,6 +14,8 @@ public class Station {
     private int dock_bikes;
     private int free_bases;
     private int reservations_count;
+    private float latitude;
+    private float longitude;
 
     public Station(){};
 
@@ -90,6 +92,21 @@ public class Station {
 
     public void setReservations_count(int reservations_count) {
         this.reservations_count = reservations_count;
+    }
+
+    public float getLatitude() {return latitude;
+    }
+
+    public void setLatitude(float latitude) {
+        this.latitude = latitude;
+    }
+
+    public float getLongitude() {
+        return longitude;
+    }
+
+    public void setLongitude(float longitude) {
+        this.longitude = longitude;
     }
 
     @Override

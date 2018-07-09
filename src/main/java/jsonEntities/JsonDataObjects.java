@@ -1,8 +1,5 @@
 package jsonEntities;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
-import org.springframework.data.mongodb.core.mapping.Document;
-
 import java.io.Serializable;
 import java.util.Date;
 
@@ -19,6 +16,21 @@ public class JsonDataObjects implements Serializable {
     private int idplug_station;
     private UnplugTime unplug_hourTime;
     private Date date;
+    private int dayOfWeek;
+    private int month;
+    private int hour;
+    private int dayOfMonth;
+
+    public JsonDataObjects() {
+    }
+
+    public int getDayOfMonth() {
+        return dayOfMonth;
+    }
+
+    public void setDayOfMonth(int dayOfMonth) {
+        this.dayOfMonth = dayOfMonth;
+    }
 
     public Date getDate() {
         return date;
@@ -29,9 +41,6 @@ public class JsonDataObjects implements Serializable {
     }
 
     private String zip_code;
-
-    public JsonDataObjects() {
-    }
 
     public IDclass get_id() {
         return _id;
@@ -129,4 +138,27 @@ public class JsonDataObjects implements Serializable {
         this.zip_code = zip_code;
     }
 
+    public int getDayOfWeek() {
+        return dayOfWeek;
+    }
+
+    public void setDayOfWeek(int dayOfWeek) {
+        this.dayOfWeek = dayOfWeek;
+    }
+
+    public int getMonth() {
+        return month;
+    }
+
+    public void setMonth(int month) {
+        this.month = month;
+    }
+
+    public int getHour() {
+        return hour;
+    }
+
+    public void setHour(int hour) {
+        this.hour = hour;
+    }
 }
